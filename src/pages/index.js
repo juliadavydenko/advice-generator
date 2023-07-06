@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Image from "next/image";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -52,13 +52,18 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+            Andrew, web-developer:{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            "GuidanceGenius has been a game-changer in my life! This incredible
+            advice generator app has provided me with the guidance and clarity I
+            needed to navigate through various challenges and make important
+            decisions. From career dilemmas to personal relationships, the app
+            has consistently delivered spot-on advice that resonated with my
+            situation".
           </p>
         </a>
 
@@ -69,13 +74,17 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
+            Jenny, 32, content-writer:{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+            "The personalized and insightful advice offered by GuidanceGenius
+            has not only helped me gain a fresh perspective but has also
+            empowered me to take decisive actions and pursue my dreams with
+            confidence. It's like having a wise mentor right in my pocket,
+            available whenever I need guidance".
           </p>
         </a>
 
@@ -86,7 +95,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
+            Templates{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -103,16 +112,22 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
+            Sunny, 26, student:{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Thanks to GuidanceGenius, I have achieved remarkable growth in both
+            my personal and professional life. It has provided me with the tools
+            and inspiration to overcome obstacles, embrace opportunities, and
+            unleash my true potential. This app has truly been a transformative
+            force, and I can't recommend it enough to anyone seeking guidance
+            and clarity on their journey to success and fulfillment. It's time
+            to let GuidanceGenius change your life too!"
           </p>
         </a>
       </div>
     </main>
-  )
+  );
 }
